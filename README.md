@@ -31,6 +31,9 @@ https://zelikk.blogspot.com/2022/01/v2ray-caddy-ws-tls-cdn.html
 
 ```bash
 v2ray uninstall
+```
+
+```bash
 bash <(curl -L git.io/233v334.sh)
 ```
 
@@ -43,9 +46,11 @@ bash <(curl -L git.io/233v334.sh)
 # 如果报错 `bash: curl: command not found` 可能你需要安装curl
 ```
 apt update
-apt install -y curl
 ```
 
+```
+apt install -y curl
+```
 # 后记
 
 233的脚本从本地安装时，必须在 install.sh 脚本所在的目录执行
@@ -57,7 +62,3 @@ https://zelikk.blogspot.com/2021/01/233v2ray-local.html
 
 # 如果你想下载某个“旧版本”的233脚本
 https://zelikk.blogspot.com/2021/08/233v2ray-github-commit.html
-
-## 用你的STAR告诉我这个Repo对你有用 Welcome STARs! :)
-
-[![Stargazers over time](https://starchart.cc/crazypeace/v2ray.svg)](https://starchart.cc/crazypeace/v2ray)
